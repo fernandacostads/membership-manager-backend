@@ -1,5 +1,6 @@
 package com.fcs.membershipmanager.service;
 
+import com.fcs.membershipmanager.exception.UserNotFoundException;
 import com.fcs.membershipmanager.repo.MemberRepo;
 import com.fcs.membershipmanager.model.Member;
 import org.springframework.beans.factory.annotation.Autowired;
